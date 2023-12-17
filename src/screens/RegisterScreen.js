@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet} from 'react-native';
+import { View, StyleSheet,Text} from 'react-native';
 
 
 
@@ -16,7 +16,8 @@ const RegisterScreen = () => {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        justifyContent:'center'
+        justifyContent:'center',
+        alignItems:'center'
         
         
 

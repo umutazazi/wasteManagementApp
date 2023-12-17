@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Button, StyleSheet, Text } from "react-native";
 
-const HomePage = () => {
+const HomePage = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text>Home Page</Text>
-      <Button title="Login" />
-      <Button title="Register" />
+      <Button title="Login" onPress={() => {navigation.navigate('Login')}} />
+      <Button title="Register" onPress={() => {navigation.navigate('Register')}} />
     </View>
   );
 };
